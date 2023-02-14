@@ -6,7 +6,7 @@
 .button {
     font-size: 1.4em;
     background-color: var(--bg-button);
-    border:none;
+    border: none;
     border-right: var(--border-button);
     border-bottom: var(--border-button);
     outline: none;
@@ -20,7 +20,7 @@
     grid-column: span 3;
 }
 
-.button.double{
+.button.double {
     grid-column: span 2;
 }
 
@@ -30,5 +30,5 @@
 }
 
 .button.operation:active {
-    background-color: #fa8231cc;
+    background-color: #ccc;
 }
